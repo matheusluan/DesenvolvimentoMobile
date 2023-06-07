@@ -16,25 +16,26 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.activity_menu,menu);
+        getMenuInflater().inflate(R.menu.activity_menu, menu);
         return super.onCreateOptionsMenu(menu);
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()){
+        switch (item.getItemId()) {
             case R.id.add:
-                Toast.makeText(this, R.string.add_message, Toast.LENGTH_SHORT).show();
-                break;
-            case R.id.edit:
-                Toast.makeText(this, R.string.edit_message, Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, R.string.add_contato, Toast.LENGTH_SHORT).show();
                 break;
             case R.id.remove:
-                Toast.makeText(this, R.string.remove_message, Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, R.string.remove_contato, Toast.LENGTH_SHORT).show();
                 break;
             case R.id.help:
-                Toast.makeText(this, R.string.help_message, Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, R.string.ajuda, Toast.LENGTH_SHORT).show();
                 break;
+            case R.id.edit:
+                Toast.makeText(this, R.string.edit_contato, Toast.LENGTH_SHORT).show();
+                break;
+
         }
         return super.onOptionsItemSelected(item);
     }
