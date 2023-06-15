@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tarefa 9 Dialog</string>
+    <string name="data">Definir Data</string>
+    <string name="hora">Definir Hora</string>
+</resources>
