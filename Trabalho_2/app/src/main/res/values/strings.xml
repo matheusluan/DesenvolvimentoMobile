@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Trabalho 2 </string>
+    <string name="ok">OK</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="configuracao">Configurações</string>
+    <string name="novo">Novo</string>
+    <string name="item">Item</string>
+    <string name="excluir">Excluir</string>
+    <string name="editar">Editar</string>
+</resources>
