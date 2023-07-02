@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Só vale carro veio</string>
+
+    <string name="action_add">Adicionar</string>
+    <string name="txt_nome">Nome:</string>
+    <string name="txt_marca">Marca:</string>
+    <string name="txt_motor">Motor:</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_ok">OK</string>
+    <string name="eu">Author: Matheus</string>
+    <string name="voltar">Voltar</string>
+    <string name="frase">Esse é o trabalho final de Desenvolvimento Mobile, usando banco de dados, se quiser ver mais, o github está acima.</string>
+    <string name="git">https://github.com/matheusluan</string>
+</resources>
